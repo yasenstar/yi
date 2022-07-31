@@ -4,7 +4,7 @@
 
 在此使用 [Archi](https://www.archimatetool.com/) 工具进行模型化。如下概览：
 
-![](C:\Users\v0cn037\AppData\Roaming\marktext\images\2022-07-30-20-41-46-image.png)
+![Yi-origin](img/Yi-origin.png)
 
 Please clone to local then you can view the website for elements/views in Browser.
 
