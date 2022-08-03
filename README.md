@@ -1,4 +1,4 @@
-# YI - 易
+# YI - 易 - CHANGE
 
 Yi, fouth tone in Chinese, meaning is "Changes". The book talks about how human to observe, understand, feel and participate the changes, both internally and externally.
 
