@@ -3,7 +3,7 @@
 | Chinese                                | English                                 |
 | -------------------------------------- | --------------------------------------- |
 | 易经                                   | The Book of Change                      |
-| ｜ 阴阳 ☯️                              | Yin Yang                                |
+| 阴阳 ☯️                                 | Yin Yang                                |
 | 太极                                   | Tai Chi, TaiQi                          |
 | 两仪                                   | Liang Yi, Two States                    |
 | 四象                                   | Four Images                             |
