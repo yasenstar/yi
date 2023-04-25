@@ -1568,6 +1568,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#1-初六-晋如催如，贞吉，罔孚，裕无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-晋如催如，贞吉，罔孚，裕无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#1-初六-有孚，比之，无咎。有孚，盈缶，终来有它吉 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-有孚，比之，无咎。有孚，盈缶，终来有它吉">
@@ -2776,6 +2784,14 @@
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-执之用黄牛之革，莫之胜说。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#001-111-遯-艮下乾上-33"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#2-六二-晋如愁如，贞吉，受兹介福，于其王母。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-晋如愁如，贞吉，受兹介福，于其王母。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
     </owl:Class>
     
 
