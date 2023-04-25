@@ -27,3 +27,5 @@ Keep adding more detail.
 ## Model "YI" in Ontology using Protege
 
 Check the ontology file here: [yi.owl](./yi-ontology/yi.owl)
+
+Using WebVOWL, you can see the graph [here](https://service.tib.eu/webvowl/#iri=https://yasenstar.github.io/yi/yi-ontology/yi-rdf.owl).
