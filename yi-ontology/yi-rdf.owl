@@ -1450,6 +1450,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#1-初九-利用为大作，元吉，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-利用为大作，元吉，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#1-初九-同人于门，无咎。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-同人于门，无咎。">
@@ -1696,6 +1704,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#1-初九-已事遄(chuan2)往，无咎，酌(zhuo2)损之。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-已事遄(chuan2)往，无咎，酌(zhuo2)损之。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#1-初九-磐桓(huan2)，利居贞，利建侯 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-磐桓(huan2)，利居贞，利建侯">
@@ -1850,6 +1866,7 @@
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-110-夬-乾下兑上-43"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：“损而不已必益，故受之以益。”</rdfs:comment>
     </owl:Class>
     
 
@@ -2493,7 +2510,8 @@
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>读音：guai4</rdfs:comment>
+        <rdfs:comment>《序卦传》说：“益而不已必决，故受之以夬。夬者决也。”
+读音：guai4</rdfs:comment>
     </owl:Class>
     
 
@@ -2714,6 +2732,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#2-九二-利贞，征凶，弗损益之。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-九二-利贞，征凶，弗损益之。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#2-九二-包荒，用冯河，不遐遗，朋亡。得尚于中行。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-九二-包荒，用冯河，不遐遗，朋亡。得尚于中行。">
@@ -2838,6 +2864,14 @@
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-屯如？如，乘马班如，匪寇婚媾，女子贞十字，十年乃字">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-010-屯-震下坎上-03"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#2-六二-或益之，十朋之龟，弗克违，永贞吉，王用享于帝，吉。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-或益之，十朋之龟，弗克违，永贞吉，王用享于帝，吉。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
     </owl:Class>
     
 
@@ -3166,6 +3200,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#3-六三-三人行，则损一人。一人行，则得其友。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-三人行，则损一人。一人行，则得其友。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#3-六三-众允，悔亡。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-众允，悔亡。">
@@ -3218,6 +3260,14 @@
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-比之匪人">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-010-比-坤下坎上-08"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#3-六三-益之，用凶事，无咎。有孚中行，告公用圭。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-益之，用凶事，无咎。有孚中行，告公用圭。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
     </owl:Class>
     
 
@@ -3404,6 +3454,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#4-六四-中行，告公从，利用为依迁国。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-中行，告公从，利用为依迁国。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#4-六四-乘马班如，求婚媾，往吉，无不利 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-乘马班如，求婚媾，往吉，无不利">
@@ -3464,6 +3522,14 @@
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-括囊，无咎无誉">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#4-六四-损其疾，使遄有喜，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-损其疾，使遄有喜，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
     </owl:Class>
     
 
@@ -3618,6 +3684,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#5-九五-有孚惠心，勿问元吉。有孚惠我德。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-九五-有孚惠心，勿问元吉。有孚惠我德。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#5-九五-有孚挛如，富以其邻 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-九五-有孚挛如，富以其邻">
@@ -3710,6 +3784,14 @@
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-悔亡，失得勿恤，往吉无不利。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#5-六五-或益之，十朋之龟弗克违，元吉。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-或益之，十朋之龟弗克违，元吉。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
     </owl:Class>
     
 
@@ -3847,6 +3929,14 @@
     
 
 
+    <!-- https://purl.archive.org/domain/yi#6-上九-弗损益之，无咎，贞吉，利有攸往，得臣无家。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-弗损益之，无咎，贞吉，利有攸往，得臣无家。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶">
@@ -3875,6 +3965,14 @@
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-自天祐之，吉无不利。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#111-101-大有-乾下离上-14"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#6-上九-莫益之，或击之，立心勿恒，凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-莫益之，或击之，立心勿恒，凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
     </owl:Class>
     
 
