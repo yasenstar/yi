@@ -9,6 +9,8 @@
     <owl:Ontology rdf:about="https://purl.archive.org/domain/yi">
         <rdfs:comment>易经
 Book of Changes</rdfs:comment>
+        <rdfs:isDefinedBy>Xiaoqi Zhao (赵晓琦)</rdfs:isDefinedBy>
+        <owl:versionInfo>v0.1 (2023-04-28)</owl:versionInfo>
     </owl:Ontology>
     
 
