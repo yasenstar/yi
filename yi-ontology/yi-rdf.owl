@@ -2324,6 +2324,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-001-蒙-坎下艮上-04"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;有天地然后万物生焉。盈天地之间者唯万物，故受之以屯。屯者盈也。屯者物之始生也。&quot;
 屯，元亨利贞，勿用有攸往，利建侯。</rdfs:comment>
     </owl:Class>
