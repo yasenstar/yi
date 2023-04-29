@@ -137,6 +137,25 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#易经上下经 -->
+
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#易经上下经">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#相对 -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#相对">
@@ -204,6 +223,28 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#太极">
         <rdfs:comment>Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#易经 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#易经"/>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#易经-上经 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#易经-上经">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#易经"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#易经-下经 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#易经-下经">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#易经"/>
     </owl:Class>
     
 
@@ -504,6 +545,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-111-乾-乾下乾上-01"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>坤下坤上</rdfs:comment>
     </owl:Class>
     
@@ -523,6 +570,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：《贲者饰也。致饰然后亨则尽矣，故受之以剥。&quot;</rdfs:comment>
@@ -546,6 +599,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-000-师-坎下坤上-07"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;比乐师忧。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -565,6 +624,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-101-噬嗑-震下离上-21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;临者大也。物大然后可观，故受之以观。&quot;</rdfs:comment>
@@ -588,6 +653,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-110-随-震下兑上-17"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;有大而能谦必豫，故受之以豫。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -607,6 +678,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-000-明夷-离下坤上-36"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《卦序传》说：&quot;物不可以终壮，故受之以晋。晋者进也。&quot;</rdfs:comment>
@@ -630,6 +707,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-000-升-巽下坤上-46"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -640,14 +723,20 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-坤-地"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-000-泰-乾下坤上-11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-111-同人-离下乾上-13"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#相对"/>
-                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-000-泰-乾下坤上-11"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;泰者通也。物不可以终通，故受之以否。&quot;</rdfs:comment>
@@ -679,6 +768,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-100-豫-坤下震上-16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;有大者不可以盈，姑受之以谦。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -700,6 +795,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-011-渐-艮下巽上-53"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;震者动也。物不可以终动，止之，故受之以艮。艮者止也。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -719,6 +820,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-100-解-坎下震上-40"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“聧者乖也，乖必有难，故受之以蹇。蹇者难也。”
@@ -743,6 +850,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-100-归妹-兑下震上-54"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;艮者止也。物不可以终止，故受之以渐。渐者进也。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -762,6 +875,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-010-既济-离下坎上-63"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;有其信者必行之，故受之以小过。&quot;</rdfs:comment>
@@ -785,6 +904,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-011-巽-巽下巽上-57"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;丰者，大也。穷大者必失其居，故受之以旅。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -806,6 +931,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -824,6 +955,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-100-大壮-乾下震上-34"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;恒者久也。物不可以久居其所，故受之以遯。&quot;
@@ -922,6 +1059,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-010-比-坤下坎上-08"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>原则：用君子不用小人</rdfs:comment>
     </owl:Class>
     
@@ -941,6 +1084,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-010-需-乾下坎上-05"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;屯者，物之始生也。物生必蒙，故受之以蒙。蒙者蒙也，物之稚也。&quot;</rdfs:comment>
@@ -964,6 +1113,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-101-离-离上离下-30"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -982,6 +1137,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;兑者说也。说而后散之，故受之以涣。涣者离也。&quot;</rdfs:comment>
@@ -1005,6 +1166,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“蹇者难也。物不可以终难，故受之以解。”</rdfs:comment>
     </owl:Class>
     
@@ -1018,6 +1185,18 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-010-既济-离下坎上-63"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-111-乾-乾下乾上-01"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;物不可穷也，故受之以未济终焉。&quot;</rdfs:comment>
@@ -1041,6 +1220,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;升而不已必困，故受之以困。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -1060,6 +1245,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-000-师-坎下坤上-07"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;饮食必有讼，故受之以讼。&quot;</rdfs:comment>
@@ -1083,6 +1274,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-110-困-坎下兑上-47"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;萃者聚也。聚而上者谓之升，故受之以升。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -1102,6 +1299,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-000-临-兑下坤上-19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;以喜随人者必有事，故受之以蛊，蛊者事也。&quot;
@@ -1126,6 +1329,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-110-革-离下兑上-49"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1144,6 +1353,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-110-兑-兑下兑上-58"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;旅而无所容，故受之以巽。巽者入也。&quot;</rdfs:comment>
@@ -1167,6 +1382,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-111-遯-艮下乾上-33"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1185,6 +1406,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-100-震-震下震上-51"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;革物者莫若鼎，故受之以鼎。&quot;</rdfs:comment>
@@ -1208,6 +1435,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-010-坎-坎下坎上-29"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1226,6 +1459,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-110-萃-坤下兑上-45"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;夬者决也。决必有遇，故受之以姤，姤者遇也。&quot;
@@ -2306,6 +2545,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;物不可以终尽，剥穷上反下，故受之以复。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2327,6 +2572,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2337,14 +2588,20 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-震-雷"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-001-蒙-坎下艮上-04"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;有天地然后万物生焉。盈天地之间者唯万物，故受之以屯。屯者盈也。屯者物之始生也。&quot;
@@ -2369,6 +2626,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-110-夬-乾下兑上-43"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“损而不已必益，故受之以益。”</rdfs:comment>
     </owl:Class>
     
@@ -2390,6 +2653,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-001-艮-艮下艮上-52"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2408,6 +2677,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-001-贲-离下艮上-22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;可观而后有所合，故受之以噬嗑(shi,ke)。嗑者合也。&quot;</rdfs:comment>
@@ -2431,6 +2706,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-001-蛊-巽下艮上-18"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;豫必有随，故受之以随。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2450,6 +2731,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-001-大畜-乾下艮上-26"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2480,6 +2767,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-011-家人-离下巽上-37"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“晋者进也。进必有所伤，故受之以明夷。夷者伤也。”</rdfs:comment>
     </owl:Class>
     
@@ -2499,6 +2792,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;嗑者合也，物不可以苟合而已，故受之以贲。贲者饰也。&quot;
@@ -2524,6 +2823,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-101-未济-坎下离上-64"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;有过物者必济，故受之以既济。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2543,6 +2848,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-101-睽-兑下离上-38"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“夷者伤也。伤于外者必反其家，故受之以家人。”</rdfs:comment>
@@ -2566,6 +2877,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-101-旅-艮下离上-56"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;得其所归者必大，故受之以丰。丰者大也。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2585,6 +2902,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-110-咸-艮下兑上-31"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2607,6 +2930,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;井道不可不革，故受之以革。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2626,6 +2955,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-101-大有-乾下离上-14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2714,6 +3049,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-011-观-坤下巽上-20"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;蛊者事也，有事而后可大，故受之以临，临者大也。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2733,6 +3074,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“解者缓也。缓必有所失，故受之以损。”</rdfs:comment>
@@ -2756,6 +3103,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-011-中孚-兑下巽上-61"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;涣者离也。物不可以终离，故受之以节。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2775,6 +3128,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-100-小过-艮下震上-62"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;节而信之，故受之以中孚。&quot;</rdfs:comment>
@@ -2798,6 +3157,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-100-丰-离下震上-55"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;渐者进也。进必有所归，故受之以归妹。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2817,6 +3182,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-010-蹇-艮下坎上-39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“家道穷必乖，故受之以聧。聧者乖也。”</rdfs:comment>
@@ -2840,6 +3211,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-011-涣-坎下巽上-59"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;巽者入也。入而后说之，故受之以说。兑者说也。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2859,6 +3236,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-000-泰-乾下坤上-11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;物畜然后有礼，故受之以履。&quot;</rdfs:comment>
@@ -2892,6 +3275,12 @@ Book of Changes</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#相对"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-111-否-坤下乾上-12"/>
             </owl:Restriction>
@@ -2916,6 +3305,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-001-颐-震下艮上-27"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2934,6 +3329,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-111-讼-坎下乾上-06"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;蒙者蒙也，物之稚也。物稚不可不养也，故受之以需。需者饮食之道也。&quot;</rdfs:comment>
@@ -2957,6 +3358,12 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-111-履-兑下乾上-10"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;比必有所畜，故受之以小畜。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2978,6 +3385,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;遯者退也。物不可以终遯，故受之以大壮。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -2997,6 +3410,12 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-000-谦-艮下坤上-15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3026,6 +3445,12 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：“益而不已必决，故受之以夬。夬者决也。”
 读音：guai4</rdfs:comment>
     </owl:Class>
@@ -3036,6 +3461,24 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#111-111-乾-乾下乾上-01">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#111-乾-天"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-101-未济-坎下离上-64"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
+                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>乾下乾上</rdfs:comment>
     </owl:Class>
     

@@ -1,6 +1,6 @@
 # YI - 易 - BOOK OF CHANGE
 
-Yi, fouth tone in Chinese, meaning is "Changes". The book talks about how human to observe, understand, feel and participate the changes, both internally and externally.
+YI (I Ching) (《易经》)，fouth tone in Chinese, meaning is "Changes". The book talks about how human to observe, understand, feel and participate the changes, both internally and externally.
 
 It's the TOP book in Chinese history, most of the knowledge were inherit and derived from it.
 
