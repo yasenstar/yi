@@ -433,6 +433,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#0-晋-康侯用锡马蕃庶，昼日三接。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-晋-康侯用锡马蕃庶，昼日三接。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#0-未济-亨；小狐汔济，濡其尾，无攸利。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-未济-亨；小狐汔济，濡其尾，无攸利。">
@@ -457,10 +465,26 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#0-艮-艮其背，不获其身；行其庭，不见其人，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-艮-艮其背，不获其身；行其庭，不见其人，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#001-001-艮-艮下艮上-52"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#0-节-亨；苦节不可，贞。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-节-亨；苦节不可，贞。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#0-萃-亨，王假有庙；利见大人，亨利贞；用大牲吉，利有攸往。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-萃-亨，王假有庙；利见大人，亨利贞；用大牲吉，利有攸往。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-110-萃-坤下兑上-45"/>
     </owl:Class>
     
 
@@ -777,6 +801,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;姤者遇也。物相遇而后聚，故受之以萃。萃者聚也。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -995,7 +1020,9 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-101-离-离上离下-30"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>咸，音意为感。</rdfs:comment>
+        <rdfs:comment>《序卦传》说：&quot;有天地然后有万物，有万物然后有男女，有男女然后有夫妇，有夫妇然后有父子，有父子然后有君臣，有君臣然后有上下，有上下然后礼仪有所错。&quot;
+
+咸，音意为感。</rdfs:comment>
     </owl:Class>
     
 
@@ -1124,7 +1151,9 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>原则：用君子不用小人</rdfs:comment>
+        <rdfs:comment>《序卦传》说：&quot;讼必有众起，故受之以师。&quot;
+
+原则：用君子不用小人</rdfs:comment>
     </owl:Class>
     
 
@@ -1178,6 +1207,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;物不可以终过，故受之以坎。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -1403,6 +1433,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;困乎上者必反下，故受之以井。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -1456,6 +1487,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;夫妇之道不可以不久也，故受之以恒。恒者，久也。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -1509,6 +1541,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;颐者，养也。不养则不可动，故受之以大过。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -2701,6 +2734,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;物畜然后可养，故受之以颐。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -2727,8 +2761,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>《序卦传》说：&quot;有天地然后万物生焉。盈天地之间者唯万物，故受之以屯。屯者盈也。屯者物之始生也。&quot;
-屯，元亨利贞，勿用有攸往，利建侯。</rdfs:comment>
+        <rdfs:comment>《序卦传》说：&quot;有天地然后万物生焉。盈天地之间者唯万物，故受之以屯。屯者盈也。屯者物之始生也。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -2782,6 +2815,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-下经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;主器者莫若长子，故受之以震。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -2862,6 +2896,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;复则不妄矣，故受之以无妄。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -3033,6 +3068,7 @@ Book of Changes</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;坎者陷也。陷必有所丽，故受之以离。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -3408,6 +3444,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-111-否-坤下乾上-12"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;履而泰然后安，故受之以泰。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -3434,6 +3471,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;有无妄然后可畜，故受之以大畜。&quot;</rdfs:comment>
     </owl:Class>
     
 
