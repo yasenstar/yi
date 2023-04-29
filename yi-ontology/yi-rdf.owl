@@ -246,6 +246,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#0-剥-不利有攸往。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-剥-不利有攸往。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#0-同人-同人于野，亨。利涉大川，利君子贞。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-同人-同人于野，亨。利涉大川，利君子贞。">
@@ -509,6 +517,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：《贲者饰也。致饰然后亨则尽矣，故受之以剥。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -1901,6 +1910,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-允升，大吉。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-000-升-巽下坤上-46"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#1-初六-剥床以足，蔑。贞凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-剥床以足，蔑。贞凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
     </owl:Class>
     
 
@@ -3424,6 +3441,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#2-六二-剥床以辨，蔑。贞凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-剥床以辨，蔑。贞凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#2-六二-包成，小人吉，大人否亨。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-包成，小人吉，大人否亨。">
@@ -3988,6 +4013,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#3-六三-剥之，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-剥之，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#3-六三-勿用取女，见金夫，不有躬，无攸利 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-勿用取女，见金夫，不有躬，无攸利">
@@ -4438,6 +4471,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-入于左腹，获明夷之心，于出门庭。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#101-000-明夷-离下坤上-36"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#4-六四-剥之，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-剥之，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
     </owl:Class>
     
 
@@ -5088,6 +5129,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#5-六五-贯鱼以宫人宠，无不利。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-贯鱼以宫人宠，无不利。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#5-六五-震往来，厉；亿无丧，有事。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-震往来，厉；亿无丧，有事。">
@@ -5313,6 +5362,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-白贲，无咎。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#101-001-贲-离下艮上-22"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#6-上九-硕果不食。君子得舆，小人剥庐。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-硕果不食。君子得舆，小人剥庐。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
     </owl:Class>
     
 
