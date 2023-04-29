@@ -287,6 +287,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#0-复-亨。出入无疾，朋来无咎。反复其道，七日来复。利有攸往。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-复-亨。出入无疾，朋来无咎。反复其道，七日来复。利有攸往。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#0-大有-元亨。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-大有-元亨。">
@@ -2152,6 +2160,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#1-初九-不远复。无祗(zhi1)悔，元吉。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-不远复。无祗(zhi1)悔，元吉。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#1-初九-屦(ju4)校灭趾，无咎。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-屦(ju4)校灭趾，无咎。">
@@ -2290,6 +2306,7 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>《序卦传》说：&quot;物不可以终尽，剥穷上反下，故受之以复。&quot;</rdfs:comment>
     </owl:Class>
     
 
@@ -3447,6 +3464,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#2-六二-休复，吉。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-休复，吉。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#2-六二-剥床以辨，蔑。贞凶。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-剥床以辨，蔑。贞凶。">
@@ -4171,6 +4196,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#3-六三-频复，厉无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-频复，厉无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#3-六三-食旧德，贞厉，终吉，或从王事无成 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-食旧德，贞厉，终吉，或从王事无成">
@@ -4453,6 +4486,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-九四-震遂泥。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-100-震-震下震上-51"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#4-六四-中行独复。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-六四-中行独复。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
     </owl:Class>
     
 
@@ -5063,6 +5104,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#5-六五-敦复，无悔。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-敦复，无悔。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#5-六五-来章，有庆誉，吉。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-来章，有庆誉，吉。">
@@ -5592,6 +5641,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上六-苦节；贞凶，悔亡。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#6-上六-迷复。凶，有灾眚。用行师，终有大败。以其国君凶。至于十年不克征。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上六-迷复。凶，有灾眚。用行师，终有大败。以其国君凶。至于十年不克征。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
     </owl:Class>
     
 
