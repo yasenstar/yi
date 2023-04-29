@@ -22,6 +22,8 @@ When you look as Tai Chi (NULL), Yin (0), Yang (1), then 4 phases (00, 01, 10, 1
 
 Please clone to local then you can view the website for elements/views in Browser via [index.html](./archi_model_Yi/index.html).
 
+You can browse directly from the github page here: https://yasenstar.github.io/yi/archi_model_Yi/index.html
+
 Keep adding more detail.
 
 ## Model "YI" in Ontology using Protege
