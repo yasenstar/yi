@@ -345,6 +345,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#0-大过-栋桡。利有攸往，亨。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-大过-栋桡。利有攸往，亨。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#0-小畜-亨。密云不雨，自我西郊。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-小畜-亨。密云不雨，自我西郊。">
@@ -373,6 +381,22 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-师-贞，丈人，吉无咎。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#010-000-师-坎下坤上-07"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#0-恒-亨，无咎。利贞，利有攸往。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-恒-亨，无咎。利贞，利有攸往。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#0-无妄-元亨利贞。其匪正，有眚，不利有攸往。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-无妄-元亨利贞。其匪正，有眚，不利有攸往。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
     </owl:Class>
     
 
@@ -469,6 +493,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-需-有孚，光亨，贞吉，利涉大川。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#111-010-需-乾下坎上-05"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#0-颐-贞吉。观颐，自求口实。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-颐-贞吉。观颐，自求口实。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-001-颐-震下艮上-27"/>
     </owl:Class>
     
 
@@ -1258,10 +1290,19 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#011-巽-风（木） -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-巽-风（木）">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#01-少阳-春"/>
+        <rdfs:comment>读音：xun4</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#011-000-升-巽下坤上-46 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-000-升-巽下坤上-46">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1288,7 +1329,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-001-蛊-巽下艮上-18 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-001-蛊-巽下艮上-18">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1316,7 +1357,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1342,7 +1383,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-011-巽-巽下巽上-57 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-011-巽-巽下巽上-57">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1369,7 +1410,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1395,7 +1436,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-101-鼎-巽下离上-50 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-101-鼎-巽下离上-50">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1422,7 +1463,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1448,7 +1489,7 @@ Book of Changes</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风/木"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1469,15 +1510,6 @@ Book of Changes</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;夬者决也。决必有遇，故受之以姤，姤者遇也。&quot;
 音：gou4</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#011-巽-风/木 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-巽-风/木">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#01-少阳-春"/>
-        <rdfs:comment>读音：xun4</rdfs:comment>
     </owl:Class>
     
 
@@ -2065,6 +2097,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#1-初九-无妄，往吉。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-无妄，往吉。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#1-初九-明夷于飞，垂其翼。君子于行，三日不食。有攸往，主人有言。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-明夷于飞，垂其翼。君子于行，三日不食。有攸往，主人有言。">
@@ -2093,6 +2133,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-素履往，无咎">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-111-履-兑下乾上-10"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#1-初九-舍尔灵龟，观我朵颐，凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初九-舍尔灵龟，观我朵颐，凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-001-颐-震下艮上-27"/>
     </owl:Class>
     
 
@@ -2265,6 +2313,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#1-初六-浚恒，贞凶，无攸利。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-浚恒，贞凶，无攸利。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#1-初六-濡其尾，吝。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-濡其尾，吝。">
@@ -2285,6 +2341,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-艮其趾，无咎，利永贞。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#001-001-艮-艮下艮上-52"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#1-初六-藉用白茅，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-初六-藉用白茅，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
     </owl:Class>
     
 
@@ -3803,6 +3867,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#2-九二-悔亡。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-九二-悔亡。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#2-九二-惕号，莫夜有戎，勿恤。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-九二-惕号，莫夜有戎，勿恤。">
@@ -4083,6 +4155,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#2-六二-颠颐，拂经于丘颐。征凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-颠颐，拂经于丘颐。征凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-001-颐-震下艮上-27"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#2-六二-鸣谦，贞吉。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-鸣谦，贞吉。">
@@ -4141,6 +4221,22 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-九二-困于酒食，朱绂(fu2)方来，利于亨祀，征凶，无咎。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#010-110-困-坎下兑上-47"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#2-九二-枯杨生稊(ti2)，老夫得其女妻，无不利。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-九二-枯杨生稊(ti2)，老夫得其女妻，无不利。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#2-六二-不耕获，不菑(zi1)畬(yu2)，则利有攸往。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-六二-不耕获，不菑(zi1)畬(yu2)，则利有攸往。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
     </owl:Class>
     
 
@@ -4287,6 +4383,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#3-九三-不恒其德，或承之羞，贞吝。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-九三-不恒其德，或承之羞，贞吝。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#3-九三-伏戎于莽，升其高陵，三岁不兴。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-九三-伏戎于莽，升其高陵，三岁不兴。">
@@ -4379,6 +4483,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-九三-明夷于南狩，得其大首，不可疾贞。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#101-000-明夷-离下坤上-36"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#3-九三-栋桡，凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-九三-栋桡，凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
     </owl:Class>
     
 
@@ -4555,6 +4667,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-归妹以须，反归为娣。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-100-归妹-兑下震上-54"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#3-六三-无妄之灾，或系之牛，行人之得，邑人之灾。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-六三-无妄之灾，或系之牛，行人之得，邑人之灾。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
     </owl:Class>
     
 
@@ -4805,6 +4925,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#4-九四-可贞，无咎。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-九四-可贞，无咎。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#4-九四-商兑未宁，介疾有喜。 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-九四-商兑未宁，介疾有喜。">
@@ -4873,6 +5001,22 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-九四-来徐徐，困于金车，吝，有终。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#010-110-困-坎下兑上-47"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#4-九四-栋隆吉，有它吝。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-九四-栋隆吉，有它吝。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#4-九四-田无禽。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-九四-田无禽。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
     </owl:Class>
     
 
@@ -5339,6 +5483,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#5-九五-无妄之疾，勿药有喜。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-九五-无妄之疾，勿药有喜。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#5-九五-显比，王用三驱失前禽，邑人不诫，吉 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-九五-显比，王用三驱失前禽，邑人不诫，吉">
@@ -5367,6 +5519,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-九五-有孚挛如，无咎。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-011-中孚-兑下巽上-61"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#5-九五-枯杨生华，老妇得其士夫，无咎无誉。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-九五-枯杨生华，老妇得其士夫，无咎无誉。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
     </owl:Class>
     
 
@@ -5519,6 +5679,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-干父之蛊，用誉。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-001-蛊-巽下艮上-18"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#5-六五-恒其德，贞，妇人吉，夫子凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#5-六五-恒其德，贞，妇人吉，夫子凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
     </owl:Class>
     
 
@@ -5824,6 +5992,14 @@ Book of Changes</rdfs:comment>
     
 
 
+    <!-- https://purl.archive.org/domain/yi#6-上九-无妄行有眚，无攸利。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-无妄行有眚，无攸利。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/domain/yi#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶">
@@ -6036,6 +6212,14 @@ Book of Changes</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上六-拘系之，乃从维之。王用亨于西山。">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-110-随-震下兑上-17"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/domain/yi#6-上六-振恒，凶。 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#6-上六-振恒，凶。">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
     </owl:Class>
     
 
