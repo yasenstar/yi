@@ -2127,14 +2127,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#17-寒露"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#18-霜降"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#17-寒露"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#18-霜降"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
