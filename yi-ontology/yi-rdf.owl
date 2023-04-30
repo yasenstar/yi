@@ -1231,15 +1231,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#03-惊蛰"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#04-春分"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#03-惊蛰"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#04-春分"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1750,15 +1749,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#05-清明"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#06-谷雨"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#05-清明"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#06-谷雨"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1821,15 +1819,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#07-立夏"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#08-小满"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#07-立夏"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#08-小满"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1878,15 +1875,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#09-芒种"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#10-夏至"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#09-芒种"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#10-夏至"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1963,15 +1959,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#11-小暑"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#12-大暑"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#11-小暑"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#12-大暑"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2004,15 +1999,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#13-立秋"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#14-处暑"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#13-立秋"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#14-处暑"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2047,15 +2041,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#15-白露"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#16-秋分"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#15-白露"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#16-秋分"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2126,13 +2119,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#17-寒露"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#18-霜降"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2174,15 +2167,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#19-立冬"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#20-小雪"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#19-立冬"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#20-小雪"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2846,15 +2838,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#21-大雪"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#22-冬至"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#21-大雪"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#22-冬至"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3340,15 +3331,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#23-小寒"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#24-大寒"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#23-小寒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#24-大寒"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3824,15 +3814,14 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地支"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#01-立春"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#02-雨水"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#01-立春"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#地支到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#02-雨水"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
