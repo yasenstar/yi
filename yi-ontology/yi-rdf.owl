@@ -1274,15 +1274,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-011-观-坤下巽上-20"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-100-豫-坤下震上-16"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-011-观-坤下巽上-20"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-100-豫-坤下震上-16"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1784,15 +1788,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-010-比-坤下坎上-08"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-010-比-坤下坎上-08"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1840,15 +1848,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-101-大有-乾下离上-14"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-110-夬-乾下兑上-43"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-111-乾-乾下乾上-01"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-101-大有-乾下离上-14"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-110-夬-乾下兑上-43"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-111-乾-乾下乾上-01"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1896,15 +1908,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-010-需-乾下坎上-05"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-011-小畜-乾下巽上-09"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-100-大壮-乾下震上-34"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-010-需-乾下坎上-05"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-011-小畜-乾下巽上-09"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-100-大壮-乾下震上-34"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1938,15 +1954,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-000-泰-乾下坤上-11"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-001-大畜-乾下艮上-26"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#111-010-需-乾下坎上-05"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-000-泰-乾下坤上-11"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-001-大畜-乾下艮上-26"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-010-需-乾下坎上-05"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2020,15 +2040,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-101-睽-兑下离上-38"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-110-兑-兑下兑上-58"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-111-履-兑下乾上-10"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-101-睽-兑下离上-38"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-110-兑-兑下兑上-58"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-111-履-兑下乾上-10"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2076,15 +2100,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-011-中孚-兑下巽上-61"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-100-归妹-兑下震上-54"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-011-中孚-兑下巽上-61"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-100-归妹-兑下震上-54"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2098,15 +2126,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-000-临-兑下坤上-19"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-000-临-兑下坤上-19"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-001-损-兑下艮上-41"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-010-节-兑下坎上-60"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2188,15 +2220,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-101-离-离上离下-30"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-110-革-离下兑上-49"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-111-同人-离下乾上-13"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-101-离-离上离下-30"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-110-革-离下兑上-49"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-111-同人-离下乾上-13"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2795,15 +2831,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-010-既济-离下坎上-63"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-011-家人-离下巽上-37"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-100-丰-离下震上-55"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-010-既济-离下坎上-63"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-011-家人-离下巽上-37"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-100-丰-离下震上-55"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3310,15 +3350,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-000-明夷-离下坤上-36"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-001-贲-离下艮上-22"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#101-010-既济-离下坎上-63"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-000-明夷-离下坤上-36"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-001-贲-离下艮上-22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-010-既济-离下坎上-63"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3835,15 +3879,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-101-噬嗑-震下离上-21"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-110-随-震下兑上-17"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-101-噬嗑-震下离上-21"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-110-随-震下兑上-17"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-111-无妄-震下乾上-25"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3857,16 +3905,25 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-010-屯-震下坎上-03"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-100-震-震下震上-51"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-101-噬嗑-震下离上-21"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-010-屯-震下坎上-03"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-100-震-震下震上-51"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-101-噬嗑-震下离上-21"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3880,15 +3937,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-001-颐-震下艮上-27"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#100-010-屯-震下坎上-03"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-001-颐-震下艮上-27"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-010-屯-震下坎上-03"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3902,15 +3963,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-101-鼎-巽下离上-50"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-101-鼎-巽下离上-50"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3924,16 +3989,25 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-011-巽-巽下巽上-57"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-101-鼎-巽下离上-50"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-011-巽-巽下巽上-57"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-101-鼎-巽下离上-50"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3947,15 +4021,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-000-升-巽下坤上-46"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-001-蛊-巽下艮上-18"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-000-升-巽下坤上-46"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-001-蛊-巽下艮上-18"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-010-井-巽下坎上-48"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3969,15 +4047,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-101-未济-坎下离上-64"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-110-困-坎下兑上-47"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-111-讼-坎下乾上-06"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-101-未济-坎下离上-64"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-110-困-坎下兑上-47"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-111-讼-坎下乾上-06"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3991,15 +4073,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-011-涣-坎下巽上-59"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-100-解-坎下震上-40"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-101-未济-坎下离上-64"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-011-涣-坎下巽上-59"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-100-解-坎下震上-40"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-101-未济-坎下离上-64"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4589,15 +4675,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-000-师-坎下坤上-07"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-001-蒙-坎下艮上-04"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#010-010-坎-坎下坎上-29"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-000-师-坎下坤上-07"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-001-蒙-坎下艮上-04"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#010-010-坎-坎下坎上-29"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4611,15 +4701,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-101-旅-艮下离上-56"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-110-咸-艮下兑上-31"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-111-遯-艮下乾上-33"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-101-旅-艮下离上-56"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-110-咸-艮下兑上-31"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-111-遯-艮下乾上-33"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4633,15 +4727,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-011-渐-艮下巽上-53"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-100-小过-艮下震上-62"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-101-旅-艮下离上-56"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-011-渐-艮下巽上-53"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-100-小过-艮下震上-62"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-101-旅-艮下离上-56"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4655,15 +4753,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-000-谦-艮下坤上-15"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-001-艮-艮下艮上-52"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#001-010-蹇-艮下坎上-39"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-000-谦-艮下坤上-15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-001-艮-艮下艮上-52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-010-蹇-艮下坎上-39"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4677,15 +4779,19 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-110-萃-坤下兑上-45"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#000-111-否-坤下乾上-12"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-101-晋-坤下离上-35"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-110-萃-坤下兑上-45"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#000-111-否-坤下乾上-12"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
