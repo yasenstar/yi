@@ -2667,18 +2667,37 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#01-立春"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#02-雨水"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#03-惊蛰"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#04-春分"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#05-清明"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#06-谷雨"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#01-立春"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#02-雨水"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#03-惊蛰"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#04-春分"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#05-清明"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#06-谷雨"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
