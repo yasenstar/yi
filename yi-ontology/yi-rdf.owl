@@ -3292,12 +3292,6 @@ Book of Changes</rdfs:comment>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#相对"/>
-                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-101-大有-乾下离上-14"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;物不可以终否，故受之以同人。&quot;</rdfs:comment>
     </owl:Class>
     
@@ -3747,12 +3741,6 @@ Book of Changes</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#易经-上经"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#相对"/>
-                <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#101-111-同人-离下乾上-13"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>《序卦传》说：&quot;与人同者，物必归焉，故受之以大有。&quot;</rdfs:comment>
