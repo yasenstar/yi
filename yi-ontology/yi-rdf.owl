@@ -11,8 +11,9 @@
 Book of Changes</rdfs:comment>
         <rdfs:isDefinedBy>Xiaoqi Zhao (赵晓琦)</rdfs:isDefinedBy>
         <rdfs:label>《易经》- Yi - I Ching - The book of Changes</rdfs:label>
-        <owl:priorVersion>v0.1 (2023-04-28)</owl:priorVersion>
-        <owl:versionInfo>v1.0 (2023-04-29)</owl:versionInfo>
+        <owl:priorVersion>v1.0 (2023-04-29)
+v0.1 (2023-04-28)</owl:priorVersion>
+        <owl:versionInfo>v1.1 (2023-04-29)</owl:versionInfo>
     </owl:Ontology>
     
 
