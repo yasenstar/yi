@@ -1986,14 +1986,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#天干到地支"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#05-辰"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#08-未"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#05-辰"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#天干到地支"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#08-未"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
