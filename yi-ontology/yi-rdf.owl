@@ -69,7 +69,7 @@ v0.1 (2023-04-28)</owl:priorVersion>
         </rdfs:domain>
         <rdfs:range>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#节气"/>
             </owl:Restriction>
         </rdfs:range>
