@@ -2711,14 +2711,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#07-庚"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#08-辛"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#07-庚"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#08-辛"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -4517,14 +4516,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#01-甲"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#02-乙"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#01-甲"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#02-乙"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5128,14 +5126,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#09-壬"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#10-癸"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#09-壬"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#10-癸"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -5725,14 +5722,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#03-丙"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#04-丁"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#03-丙"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#04-丁"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6290,14 +6286,13 @@ Book of Changes</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#05-戊"/>
-                            <rdf:Description rdf:about="https://purl.archive.org/domain/yi#06-己"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:allValuesFrom>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#05-戊"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#06-己"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
