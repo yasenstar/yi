@@ -29,25 +29,6 @@ v0.1 (2023-04-28)</owl:priorVersion>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#五行到地数 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#五行到地数">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#五行"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#地数"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://purl.archive.org/domain/yi#五行到天干 -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#五行到天干">
@@ -68,99 +49,10 @@ v0.1 (2023-04-28)</owl:priorVersion>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#五行到天数 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#五行到天数">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#五行"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#天数"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#五行到方位 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#五行到方位">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#五行"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#方位"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#八卦到方位 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#八卦到方位">
-        <owl:inverseOf rdf:resource="https://purl.archive.org/domain/yi#方位到八卦"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#方位"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://purl.archive.org/domain/yi#前序 -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#前序">
         <owl:inverseOf rdf:resource="https://purl.archive.org/domain/yi#后序"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#卦到天地之数 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#卦到天地之数">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#天地之数"/>
-            </owl:Restriction>
-        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -172,7 +64,7 @@ v0.1 (2023-04-28)</owl:priorVersion>
         <rdfs:domain>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:range>
@@ -185,56 +77,24 @@ v0.1 (2023-04-28)</owl:priorVersion>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#卦到阴阳消长 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#卦到阴阳消长">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://purl.archive.org/domain/yi#后序 -->
 
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#后序">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#后序"/>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#四象到节气 -->
+    <!-- https://purl.archive.org/domain/yi#四时到节气 -->
 
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#四象到节气">
+    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#四时到节气">
         <rdfs:domain>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#四象（四时）"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#四时"/>
             </owl:Restriction>
         </rdfs:domain>
         <rdfs:range>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#节气"/>
             </owl:Restriction>
         </rdfs:range>
@@ -280,25 +140,6 @@ v0.1 (2023-04-28)</owl:priorVersion>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#方位到八卦 -->
-
-    <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#方位到八卦">
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#方位到八卦"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#方位"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#方位到八卦"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
-            </owl:Restriction>
-        </rdfs:range>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://purl.archive.org/domain/yi#易经上下经 -->
 
     <owl:ObjectProperty rdf:about="https://purl.archive.org/domain/yi#易经上下经">
@@ -311,7 +152,7 @@ v0.1 (2023-04-28)</owl:priorVersion>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#易经上下经"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极"/>
             </owl:Restriction>
         </rdfs:range>
     </owl:ObjectProperty>
@@ -339,7 +180,7 @@ v0.1 (2023-04-28)</owl:priorVersion>
         <rdfs:range>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#节气到卦"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#太极"/>
             </owl:Restriction>
         </rdfs:range>
     </owl:ObjectProperty>
@@ -357,159 +198,15 @@ v0.1 (2023-04-28)</owl:priorVersion>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#一 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#一">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#七 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#七">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#三 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#三">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#东 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#东">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四方"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#东北 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#东北">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四隅"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#东南 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#东南">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四隅"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#中 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#中">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#方位"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#九 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#九">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#二 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#二">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#五 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#五">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天数"/>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/domain/yi#五行 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#五行"/>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#八 -->
+    <!-- https://purl.archive.org/domain/yi#四时 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#八">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#六 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#六">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#北 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#北">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四方"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#十 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#十">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#南 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#南">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四方"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#四 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#四">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#地数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#四方 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#四方">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#方位"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#四象（四时） -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#四象（四时）"/>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#四隅 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#四隅">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#方位"/>
-    </owl:Class>
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#四时"/>
     
 
 
@@ -519,49 +216,17 @@ v0.1 (2023-04-28)</owl:priorVersion>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#地数 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#地数">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天地之数"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#天地之数 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#天地之数"/>
-    
-
-
     <!-- https://purl.archive.org/domain/yi#天干 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#天干"/>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#天数 -->
+    <!-- https://purl.archive.org/domain/yi#太极 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#天数">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#天地之数"/>
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#太极">
+        <rdfs:comment>Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#太极-易 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#太极-易">
-        <rdfs:comment>《系卦传》：&quot;易有太极，是生两仪，两仪生四象，四象生八卦。&quot;
-
-《医宗金鉴﹒运气心法》：&quot;无极太虚中气理，太极太虚理中气。乘气动静生阴阳，阴阳之分为天地。未有天地气生形，已有天地形寓气，从形究气曰阴阳，即气观理曰太极。&quot;
-
-Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#方位 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#方位"/>
     
 
 
@@ -590,140 +255,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#节气 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#节气"/>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#西 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#西">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四方"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#西北 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#西北">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四隅"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#西南 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#西南">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四隅"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阳中含阴 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阳中含阴">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阳多阴少 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阳多阴少">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阳极一阴生 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阳极一阴生">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阳消阴长 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阳消阴长">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阳盛极 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阳盛极">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阳长阴弱 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阳长阴弱">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴中含阳 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴中含阳">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴多阳少 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴多阳少">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴极一阳生 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴极一阳生">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴消阳长 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴消阳长">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴盛极 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴盛极">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴长阳弱 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴长阳弱">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴阳平衡 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴阳平衡">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#阴阳消长"/>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/domain/yi#阴阳消长 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#阴阳消长"/>
     
 
 
@@ -834,7 +365,7 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#0-坤（阴） -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#0-坤（阴）">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#太极"/>
         <rdfs:comment>坤</rdfs:comment>
     </owl:Class>
     
@@ -1241,9 +772,9 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#00-老阴-太阴-冬 -->
+    <!-- https://purl.archive.org/domain/yi#00-老阴-冬 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#00-老阴-太阴-冬">
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#00-老阴-冬">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#0-坤（阴）"/>
     </owl:Class>
     
@@ -1252,31 +783,7 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#000-坤-地 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#000-坤-地">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#00-老阴-太阴-冬"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#东北"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#二"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#13-立秋"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴盛极"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#00-老阴-冬"/>
     </owl:Class>
     
 
@@ -1285,12 +792,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#000-000-坤-坤下坤上-02">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-坤-地"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴盛极"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
@@ -1318,12 +819,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#000-001-剥-坤下艮上-23">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-坤-地"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴长阳弱"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1378,12 +873,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#000-011-观-坤下巽上-20">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-坤-地"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳消阴长"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -1494,12 +983,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#000-坤-地"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴阳平衡"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#111-000-泰-乾下坤上-11"/>
             </owl:Restriction>
@@ -1524,31 +1007,7 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#001-艮-山 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#001-艮-山">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#00-老阴-太阴-冬"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#南"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#八"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#01-立春"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴长阳弱"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#00-老阴-冬"/>
     </owl:Class>
     
 
@@ -1745,12 +1204,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#001-艮-山"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳多阴少"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-100-恒-巽下震上-32"/>
             </owl:Restriction>
@@ -1845,30 +1298,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#010-坎-水（云）">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#01-少阳-春"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#西"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#一"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#22-冬至"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴极一阳生"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>坎义为险。</rdfs:comment>
     </owl:Class>
     
@@ -1938,12 +1367,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#011-110-大过-巽下兑上-28"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴中含阳"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2102,30 +1525,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-巽-风（木）">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#01-少阳-春"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#西北"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#四"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#07-立夏"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳消阴长"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>读音：xun4</rdfs:comment>
     </owl:Class>
     
@@ -2325,12 +1724,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#011-111-姤-巽下乾上-44">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#011-巽-风（木）"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳极一阴生"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -2850,7 +2243,7 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#1-乾（阳） -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-乾（阳）">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#太极-易"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#太极"/>
         <rdfs:comment>乾</rdfs:comment>
     </owl:Class>
     
@@ -3299,40 +2692,40 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#1-春 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#1-春">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四象（四时）"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四时"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#01-立春"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#02-雨水"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#03-惊蛰"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#04-春分"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#05-清明"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#06-谷雨"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3346,12 +2739,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#五行"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#四"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#07-庚"/>
             </owl:Restriction>
@@ -3360,18 +2747,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#08-辛"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#九"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#西"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3522,30 +2897,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#100-震-雷">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#10-少阴-秋"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#北"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#三"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#04-春分"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴消阳长"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>震义为动。</rdfs:comment>
     </owl:Class>
     
@@ -3555,12 +2906,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#100-000-复-震下坤上-24">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#100-震-雷"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴极一阳生"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -3777,30 +3122,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#101-离-火">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#10-少阴-秋"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#东南"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#九"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#10-夏至"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳极一阴生"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -3954,12 +3275,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳中含阴"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#后序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-110-咸-艮下兑上-31"/>
             </owl:Restriction>
@@ -4075,9 +3390,9 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     
 
 
-    <!-- https://purl.archive.org/domain/yi#11-老阳-太阳-夏 -->
+    <!-- https://purl.archive.org/domain/yi#11-老阳-夏 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/domain/yi#11-老阳-太阳-夏">
+    <owl:Class rdf:about="https://purl.archive.org/domain/yi#11-老阳-夏">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#1-乾（阳）"/>
     </owl:Class>
     
@@ -4086,31 +3401,7 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#110-兑-泽 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#110-兑-泽">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#11-老阳-太阳-夏"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#西南"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#七"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#16-秋分"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳长阴弱"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#11-老阳-夏"/>
     </owl:Class>
     
 
@@ -4119,12 +3410,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#110-000-临-兑下坤上-19">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#110-兑-泽"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴多阳少"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -4340,31 +3625,7 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#111-乾-天 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#111-乾-天">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#11-老阳-太阳-夏"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#八卦到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#东"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到天地之数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#六"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到节气"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#19-立冬"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳盛极"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#11-老阳-夏"/>
     </owl:Class>
     
 
@@ -4377,12 +3638,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#110-111-履-兑下乾上-10"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴阳平衡"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4495,12 +3750,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#111-乾-天"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阴消阳长"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#001-111-遯-艮下乾上-33"/>
             </owl:Restriction>
@@ -4555,12 +3804,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#111-乾-天"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳长阴弱"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
                 <owl:allValuesFrom rdf:resource="https://purl.archive.org/domain/yi#100-011-益-震下巽上-42"/>
             </owl:Restriction>
@@ -4587,12 +3830,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#111-111-乾-乾下乾上-01">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#111-乾-天"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#卦到阴阳消长"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#阳盛极"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#前序"/>
@@ -5307,40 +4544,40 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#2-夏 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#2-夏">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四象（四时）"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四时"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#07-立夏"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#08-小满"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#09-芒种"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#10-夏至"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#11-小暑"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#12-大暑"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5354,12 +4591,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#五行"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#八"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#01-甲"/>
             </owl:Restriction>
@@ -5368,18 +4599,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#02-乙"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#三"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#东"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -6002,12 +5221,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#五行"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#六"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#09-壬"/>
             </owl:Restriction>
@@ -6018,18 +5231,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#10-癸"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#一"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#北"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -6037,40 +5238,40 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#3-秋 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#3-秋">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四象（四时）"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四时"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#13-立秋"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#14-处暑"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#15-白露"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#16-秋分"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#17-寒露"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#18-霜降"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6569,40 +5770,40 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
     <!-- https://purl.archive.org/domain/yi#4-冬 -->
 
     <owl:Class rdf:about="https://purl.archive.org/domain/yi#4-冬">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四象（四时）"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#四时"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#19-立冬"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#20-小雪"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#21-大雪"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#22-冬至"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#23-小寒"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四象到节气"/>
+                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#四时到节气"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#24-大寒"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6616,12 +5817,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#五行"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#二"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#03-丙"/>
             </owl:Restriction>
@@ -6630,18 +5825,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#04-丁"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#七"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#南"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -7198,12 +6381,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/domain/yi#五行"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到地数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#十"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#05-戊"/>
             </owl:Restriction>
@@ -7212,18 +6389,6 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天干"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#06-己"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到天数"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#五"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.archive.org/domain/yi#五行到方位"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/domain/yi#中"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -7865,12 +7030,9 @@ Reference image: https://www.nipic.com/show/7329763.html</rdfs:comment>
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <rdfs:comment>无极</rdfs:comment>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing-无极">
-        <owl:versionInfo xml:lang="outlook.com)
+        <owl:versionInfo>Author: Xiaoqi Zhao (xiaoqizhao@outlook.com)
 作者：赵晓琦
-Copyright, 2023">Author: Xiaoqi Zhao (xiaoqizhao</owl:versionInfo>
+Copyright, 2023</owl:versionInfo>
         <rdfs:isDefinedBy>作者：赵晓琦</rdfs:isDefinedBy>
     </rdf:Description>
 </rdf:RDF>
